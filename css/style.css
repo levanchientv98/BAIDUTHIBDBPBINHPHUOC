@@ -9943,6 +9943,9 @@ h5,
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
     padding-left: 0;
   }
+  .ftco-section-1 {
+        height: 1000px;
+    }
 }
 
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
