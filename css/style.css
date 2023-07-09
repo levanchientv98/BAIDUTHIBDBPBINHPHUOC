@@ -205,6 +205,10 @@ a:not([href]):not([tabindex]):focus {
     outline: 0;
 }
 
+a:first-child {
+    margin-right: 50px;
+}
+
 pre,
 code,
 kbd,
@@ -9939,7 +9943,7 @@ h5,
     height: 100%;
     position: relative;
     z-index: 1;
-    height: 630px;
+    height: 720px;
 }
 
 @media (max-width: 767.98px) {
@@ -9950,7 +9954,7 @@ h5,
         font-size: 14px;
     }
     .ftco-section-1 {
-        height: 1000px;
+        height: 900px;
     }
 }
 
@@ -10000,6 +10004,7 @@ h5,
         width: 100% !important;
         margin-top: 25%;
         text-align: center;
+        margin-bottom: 60px;
     }
 }
 
@@ -10060,6 +10065,7 @@ h5,
     line-height: 1.5;
     font-weight: 300;
     color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 30px;
 }
 
 .slider-text p strong {
